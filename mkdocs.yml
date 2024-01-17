@@ -1,0 +1,22 @@
+site_name: My Docs
+
+nav:
+  - Home 1: index.md
+  - Home 2:
+      - Sub home:
+          - Super home: index.md
+  - Home 3: index.md
+  - Home 4: index.md
+  - Home 5: index.md
+  - Home 6: index.md
+  - Home 7: index.md
+  - Home 8: index.md
+  - Home 9: index.md
+  - Home 10: index.md
+  - Home 11: index.md
+  - Home 12: index.md
+  - Home 13: index.md
+  - Home 14: index.md
+
+theme:
+  name: material
