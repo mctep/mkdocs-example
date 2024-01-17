@@ -16,3 +16,16 @@ To serve documentation on localhost:
 ```sh
 mkdocs serve
 ```
+
+## Deployment
+
+Deployment latest version is configured via Github Actions.
+
+[Mike](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/#usage) plugin is used for deploying versions.
+
+To deploy a new version run:
+
+```sh
+mike deploy --push --update-aliases 0.1 latest
+mike set-default --push latest
+```
