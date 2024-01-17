@@ -1,4 +1,4 @@
-# Welcome to MkDocs v0.2
+# Welcome to MkDocs v0.3
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
