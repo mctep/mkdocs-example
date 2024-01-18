@@ -21,6 +21,43 @@ nav:
 
 theme:
   name: material
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
 extra:
   version:
     provider: mike
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - tables
+  - md_in_html
+  - toc:
+      permalink: true
