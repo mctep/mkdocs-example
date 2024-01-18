@@ -24,3 +24,5 @@ Deployment latest version is configured via Github Actions.
 [Mike](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/#usage) plugin is used for deploying versions.
 
 To deploy a new version create a new branch with pattern `v*.*.*` (for example `v1.54.2`) and push it.
+
+A new folder will be created in `gh-pages` branch that will be available on Github Pages after some time.
