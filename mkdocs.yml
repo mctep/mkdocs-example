@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Open Data Manager Documentation
 site_url: https://mctep.github.io/mkdocs-example/
 
 nav:
@@ -24,6 +24,8 @@ theme:
   palette:
     primary: custom
     accent: custom
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
   features:
     - announce.dismiss
     - content.action.edit
