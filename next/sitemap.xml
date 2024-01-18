@@ -5,4 +5,19 @@
          <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/next/00.%20Packages%20to%20install/1.%20Genestack%20python%20client/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/next/00.%20Packages%20to%20install/2.%20Genestack%20auxiliary%20scripts/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/next/01.%20Users/User%20creation/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
