@@ -2,22 +2,13 @@ site_name: Open Data Manager Documentation
 site_url: https://mctep.github.io/mkdocs-example/
 
 nav:
-  - Home 1: index.md
-  - Home 2:
-      - Sub home:
-          - Super home: index.md
-  - Home 3: index.md
-  - Home 4: index.md
-  - Home 5: index.md
-  - Home 6: index.md
-  - Home 7: index.md
-  - Home 8: index.md
-  - Home 9: index.md
-  - Home 10: index.md
-  - Home 11: index.md
-  - Home 12: index.md
-  - Home 13: index.md
-  - Home 14: index.md
+  - Packages to install:
+      - 00. Packages to install/1. Genestack python client/README.md
+      - Genestack python client: 00. Packages to install/1. Genestack python client/README.md
+      - Genestack auxiliary scripts: 00. Packages to install/2. Genestack auxiliary scripts/README.md
+  - Users:
+      - 01. Users/User creation/README.md
+      - Users creation: 01. Users/User creation/README.md
 
 theme:
   name: material
