@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - "v*.*"
+      - "v*.*.*"
 permissions:
   contents: write
 jobs:
