@@ -3,12 +3,12 @@ site_url: https://mctep.github.io/mkdocs-example/
 
 nav:
   - Packages to install:
-      - 00. Packages to install/1. Genestack python client/README.md
-      - Genestack python client: 00. Packages to install/1. Genestack python client/README.md
-      - Genestack auxiliary scripts: 00. Packages to install/2. Genestack auxiliary scripts/README.md
+      - packages-to-install/index.md
+      - Genestack python client: packages-to-install/genestack-python-client.md
+      - Genestack auxiliary scripts: packages-to-install/genestack-auxiliary-scripts.md
   - Users:
-      - 01. Users/User creation/README.md
-      - Users creation: 01. Users/User creation/README.md
+      - users/index.md
+      - Users creation: users/user-creation.md
 
 theme:
   name: material
