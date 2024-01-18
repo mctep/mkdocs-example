@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/v0.6/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/v0.6/00.%20Packages%20to%20install/1.%20Genestack%20python%20client/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/v0.6/00.%20Packages%20to%20install/2.%20Genestack%20auxiliary%20scripts/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mctep.github.io/mkdocs-example/v0.6/01.%20Users/User%20creation/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
