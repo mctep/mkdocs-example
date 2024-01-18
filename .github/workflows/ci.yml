@@ -1,9 +1,8 @@
-name: ci
+name: Publish documentation
 on:
   push:
     branches:
-      - master
-      - main
+      - "v*.*"
 permissions:
   contents: write
 jobs:
@@ -29,5 +28,8 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mike
-      - run: mike deploy --push --update-aliases 0.3 latest
-      # - run: mike set-default --push latest
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+      - run: mike deploy --push --update-aliases ${{ steps.extract_branch.outputs.branch }} latest
