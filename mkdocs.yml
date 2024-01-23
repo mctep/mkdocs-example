@@ -11,7 +11,7 @@ nav:
       - Users creation: users/user-creation.md
 
 theme:
-  name: material
+  name: gitbook
   palette:
     primary: custom
     accent: custom
